@@ -31,7 +31,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
 
 
@@ -40,7 +40,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         if(mAuth.getCurrentUser()!=null){
             finish();
-            startActivity(new Intent(getApplicationContext(),ImageListActivity.class));
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
         }
         TextView signuptext;
 
@@ -82,7 +82,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         if (task.isSuccessful()){
                             finish();
                             progressDialog.dismiss();
-                            startActivity(new Intent(getApplicationContext(),ImageListActivity.class));
+                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         }
                     }
                 });
@@ -95,4 +95,5 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             userLogin();
         }
     }
+
 }
