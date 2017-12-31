@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "235735724593",
+    "firebase_url": "https://klncecentral-774b6.firebaseio.com",
+    "project_id": "klncecentral-774b6",
+    "storage_bucket": "klncecentral-774b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235735724593:android:a07845980e836152",
+        "android_client_info": {
+          "package_name": "edu.klnce.sairam_kamalay.klncecentral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235735724593-ddodo4urmkboj736hsvlutl4e8cfj214.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.klnce.sairam_kamalay.klncecentral",
+            "certificate_hash": "1684fdd422d017e7961739effcea3a34bc9458b4"
+          }
+        },
+        {
+          "client_id": "235735724593-k7akhjgrrdctq2a08s2qpln9dbv3gtqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.klnce.sairam_kamalay.klncecentral",
+            "certificate_hash": "92140af4f3b8ca579826b319f6b43338ea62e281"
+          }
+        },
+        {
+          "client_id": "235735724593-g2pqq3ufj1uup52ot4n5pvhrk2nvdgb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSwE_ODIqm81iS5AoK4O8XhFH7_UTLkGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235735724593-g2pqq3ufj1uup52ot4n5pvhrk2nvdgb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
